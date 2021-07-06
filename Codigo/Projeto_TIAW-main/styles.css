@@ -1,0 +1,277 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    height: 100%;
+}
+
+/*
+.parallax {
+    background-image: url('img/inicio.svg');
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-noticias {
+    background-image: url('img/inicio-noticias.svg');
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+h3{
+    margin-top: 20px;
+}
+
+.active{
+    background-color: #0EAD30 !important;
+}
+
+.header_area a{
+    color: #0EAD30;
+    background-color: rgb(255, 255, 255, 0.0);
+    border-color: rgb(255, 255, 255, 0.0);
+}
+
+.header_area a:hover{
+    color: #0EAD30;
+    background-color: rgb(255, 255, 255, 0.0);
+    border-color: rgb(255, 255, 255, 0.0);
+}
+
+#btn_logout:hover, #btn_login:hover{
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.header{
+    background: white;
+    color: white;
+}
+
+.header_area{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    max-width: 50px;
+}
+
+.icon{
+    max-width: 30px;
+}
+
+.imagem-inicio{
+    width: 100%;
+    height: 30%;
+    object-fit: fill;
+}
+
+.titulo{
+    text-align: center;
+    color: #08611B;
+}
+
+#map{
+    height:750px;
+    width:100%;
+    border: #ffffff00;
+}
+
+.card-principal{
+    margin: 20px;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.card-noticias{
+    padding: 40px;
+}
+
+.bloco{
+    text-align: center;
+    justify-content: center;
+}
+
+.bloco p{
+    text-align: justify;
+}
+
+.botao{
+    background-color: #08611B;
+    border-color: white;
+    transition: background-color 0.5s;
+}
+
+.botao:hover, .botao:focus{
+    background-color: #0EAD30;
+    border-color: white;
+}
+
+#reciclagem .verde{
+    border-color: white;
+}
+
+#reciclagem .verde .botao{
+    background-color: #008000;
+}
+
+#reciclagem .amarelo{
+    border-color: white;
+}
+
+#reciclagem .amarelo .botao{
+    background-color: #ffb300;
+}
+
+#reciclagem .azul{
+    border-color: white;
+}
+
+#reciclagem .azul .botao{
+    background-color: #0000ff;
+}
+
+#reciclagem .vermelho{
+    border-color: white;
+}
+
+#reciclagem .vermelho .botao{
+    background-color: #ff0000;
+}
+
+.titulo-vidro{
+    color: #008000 !important;
+}
+
+.titulo-vidro.active{
+    background-color: #008000 !important;
+    color: white !important;
+}
+
+.titulo-metal{
+    color: #ffb300 !important;
+}
+
+.titulo-metal.active {
+    background-color: #ffb300 !important;
+    color: white !important;
+}
+
+.titulo-papel{
+    color: #0000ff !important;
+}
+
+.titulo-papel.active{
+    background-color: #0000ff !important;
+    color: white !important;
+}
+
+.titulo-plastico{
+    color: #ff0000 !important;
+}
+
+.titulo-plastico.active{
+    background-color: #ff0000 !important;
+    color: white !important;
+}
+
+.icone-plastico{
+    max-width: 100px;
+}
+
+.material{
+    padding: 30px;
+}
+
+.logo-empresa{
+    max-width: 300px;
+}
+
+.empresas{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.empresas h3{
+    text-align: center;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    margin-top: 10px;
+    background: #0EAD30;
+    color: white;
+    max-width: 100%;
+}
+
+.footer_area{
+    padding: 20px;
+    text-align: center;
+}
+
+.modal, .login-cadastro{
+    color: #0EAD30 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        max-width: 100%;
+    }
+
+    .logo-empresa{
+        max-width: 200px;
+    }
+
+    #reciclagem{
+        background-color: white;
+    }
+
+    .card{
+        margin: 0px;
+    }
+
+    .parallax {
+        display: none;
+    }
+    
+    .parallax-noticias {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .titulo-mapa{
+        display: none;
+    }
+
+    #map{
+        height:500px;
+        width:100%;
+        border: #ffffff00;
+    }
+}
